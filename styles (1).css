@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    color: white;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul h3 {
+    color: #818181;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.sidebar ul li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    background-color: #575757;
+    color: white;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.main-content h1 {
+    color: #333;
+}
+
+.main-content p {
+    color: #666;
+}
